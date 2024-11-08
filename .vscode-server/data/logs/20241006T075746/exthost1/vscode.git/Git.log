@@ -1,0 +1,23 @@
+2024-10-06 07:57:51.482 [info] Log level: Info
+2024-10-06 07:57:51.482 [info] Validating found git in: "git"
+2024-10-06 07:57:51.482 [info] Using git "2.25.1" from "git"
+2024-10-06 07:57:51.482 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-06 07:57:51.482 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-06 07:57:51.482 [info] Open repository: /home/tanzhizheng1520/mysite/ParkEase
+2024-10-06 07:57:51.482 [info] > git config --get commit.template [8ms]
+2024-10-06 07:57:51.482 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-06 07:57:51.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-10-06 07:57:51.482 [info] > git status -z -uall [13ms]
+2024-10-06 07:57:51.482 [info] > git config --get commit.template [8ms]
+2024-10-06 07:57:51.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-10-06 07:57:51.482 [info] > git status -z -uall [9ms]
+2024-10-06 07:57:52.105 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-06 07:57:52.318 [info] > git show --textconv :ParkEase.py [22ms]
+2024-10-06 07:57:52.319 [info] > git ls-files --stage -- /home/tanzhizheng1520/mysite/ParkEase/ParkEase.py [15ms]
+2024-10-06 07:57:52.340 [info] > git cat-file -s ea1f61174b32d8b069ef1a7900a6618029f38c19 [12ms]
+2024-10-06 07:59:10.457 [info] > git show --textconv :requirements.txt [120ms]
+2024-10-06 07:59:10.594 [info] > git ls-files --stage -- /home/tanzhizheng1520/mysite/ParkEase/requirements.txt [139ms]
+2024-10-06 07:59:10.894 [info] > git cat-file -s 27ed92bc9d5bdd15acc8898eb0fdc429336fc581 [65ms]
+2024-10-06 07:59:21.852 [info] > git check-ignore -v -z --stdin [8ms]
+2024-10-06 07:59:22.106 [info] > git show --textconv :ENV.LOCAL [10ms]
+2024-10-06 07:59:22.113 [info] > git ls-files --stage -- /home/tanzhizheng1520/mysite/ParkEase/ENV.LOCAL [10ms]

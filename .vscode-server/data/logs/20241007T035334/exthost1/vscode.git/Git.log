@@ -1,0 +1,17 @@
+2024-10-07 03:53:42.301 [info] Log level: Info
+2024-10-07 03:53:42.301 [info] Validating found git in: "git"
+2024-10-07 03:53:42.301 [info] Using git "2.25.1" from "git"
+2024-10-07 03:53:42.301 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-07 03:53:42.301 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-07 03:53:42.301 [info] Open repository: /home/tanzhizheng1520/mysite/ParkEase
+2024-10-07 03:53:42.301 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-07 03:53:42.301 [info] > git config --get commit.template [10ms]
+2024-10-07 03:53:42.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-10-07 03:53:42.301 [info] > git status -z -uall [12ms]
+2024-10-07 03:53:42.301 [info] > git config --get commit.template [6ms]
+2024-10-07 03:53:42.301 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-10-07 03:53:42.301 [info] > git status -z -uall [9ms]
+2024-10-07 03:53:43.053 [info] > git check-ignore -v -z --stdin [5ms]
+2024-10-07 03:53:43.228 [info] > git show --textconv :ParkEase.py [12ms]
+2024-10-07 03:53:43.229 [info] > git ls-files --stage -- /home/tanzhizheng1520/mysite/ParkEase/ParkEase.py [6ms]
+2024-10-07 03:53:43.244 [info] > git cat-file -s ea1f61174b32d8b069ef1a7900a6618029f38c19 [9ms]

@@ -1,0 +1,36 @@
+2024-10-06 07:57:46.810 [info] 
+
+
+
+
+2024-10-06 07:57:46.810 [info] Extension host agent started.
+2024-10-06 07:57:47.489 [info] [127.0.0.1][7f0ca2bc][ManagementConnection] New connection established.
+2024-10-06 07:57:48.006 [info] [127.0.0.1][e08da8a4][ExtensionHostConnection] New connection established.
+2024-10-06 07:57:48.434 [info] [127.0.0.1][e08da8a4][ExtensionHostConnection] <1631642> Launched Extension Host Process.
+2024-10-06 07:57:48.543 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-06 07:57:48.544 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-06 07:57:48.714 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-06 07:57:48.715 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-06 07:57:48.866 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-06 07:57:48.866 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-06 07:57:49.144 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-06 07:57:49.144 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-06 07:57:49.346 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-06 07:57:49.346 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-06 07:57:49.544 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-06 07:57:49.544 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory
+2024-10-06 07:57:50.243 [error] ptyHost terminated unexpectedly with code null
+2024-10-06 07:57:50.350 [error] ptyHost terminated unexpectedly with code null
+2024-10-06 07:57:50.455 [error] ptyHost terminated unexpectedly with code null
+2024-10-06 07:57:50.551 [error] ptyHost terminated unexpectedly with code null
+2024-10-06 07:57:50.645 [error] ptyHost terminated unexpectedly with code null
+2024-10-06 07:57:50.744 [error] ptyHost terminated unexpectedly with code null
+2024-10-06 07:57:50.848 [error] ptyHost terminated unexpectedly with code null, giving up
+2024-10-06 07:57:55.146 [error] No ptyHost response to createProcess after 5 seconds
+2024-10-06 07:57:55.160 [error] No ptyHost response to createProcess after 5 seconds
+2024-10-06 07:57:55.160 [error] No ptyHost response to createProcess after 5 seconds
+2024-10-06 07:57:55.161 [error] No ptyHost response to createProcess after 5 seconds
+2024-10-06 07:58:06.981 [error] ptyHost terminated unexpectedly with code null, giving up
+2024-10-06 07:58:25.249 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-06 07:58:30.253 [error] No ptyHost heartbeat after 12 seconds
+2024-10-06 08:02:46.729 [info] New EH opened, aborting shutdown

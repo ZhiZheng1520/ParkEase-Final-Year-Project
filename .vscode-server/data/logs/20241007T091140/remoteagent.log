@@ -1,0 +1,22 @@
+2024-10-07 09:11:40.974 [info] 
+
+
+
+
+2024-10-07 09:11:40.974 [info] Extension host agent started.
+2024-10-07 09:11:41.975 [info] [127.0.0.1][06bf16c9][ManagementConnection] New connection established.
+2024-10-07 09:11:42.488 [info] [127.0.0.1][480ed048][ExtensionHostConnection] New connection established.
+2024-10-07 09:11:42.796 [info] [127.0.0.1][480ed048][ExtensionHostConnection] <3660722> Launched Extension Host Process.
+2024-10-07 09:11:43.037 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-07 09:11:43.037 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-07 09:11:43.172 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-07 09:11:43.173 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-07 09:11:43.326 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-07 09:11:43.326 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-07 09:11:43.473 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-07 09:11:43.474 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-07 09:11:43.598 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-07 09:11:43.598 [error] [File Watcher (universal)] restarting watcher after error: No such file or directory
+2024-10-07 09:11:43.729 [error] [File Watcher (parcel)] Unexpected error: No such file or directory (EUNKNOWN) (path: /home/tanzhizheng1520/mysite/ParkEase)
+2024-10-07 09:11:43.730 [error] [File Watcher (universal)] gave up attempting to restart watcher after error: No such file or directory
+2024-10-07 09:16:40.920 [info] New EH opened, aborting shutdown
