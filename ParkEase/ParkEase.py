@@ -481,7 +481,6 @@ def remove_carplate():
         if 'connection' in locals() and connection.is_connected():
             cursor.close()
             connection.close()
-
 @app.route('/reserve', methods=['POST'])
 def place_reservation():
     """API endpoint to place a new reservation"""
@@ -494,6 +493,7 @@ def place_reservation():
         slot_id = data.get('slot_id')
         reservation_start_str = data.get('reservation_start')
         reservation_end_str = data.get('reservation_end')
+        location = data.get('location')  # New field for location
         status = data.get('status', 'Reserved')  # Default to 'Reserved' if not provided
 
         # Convert start and end times to datetime objects
@@ -501,8 +501,8 @@ def place_reservation():
         reservation_end = datetime.strptime(reservation_end_str, '%Y-%m-%d %H:%M:%S')
 
         # Check for mandatory fields
-        if not all([user_id, slot_id, reservation_start, reservation_end]):
-            return jsonify({"message": "Please provide user_id, slot_id, reservation_start, and reservation_end"}), 400
+        if not all([user_id, slot_id, reservation_start, reservation_end, location]):
+            return jsonify({"message": "Please provide user_id, slot_id, reservation_start, reservation_end, and location"}), 400
 
         # Establish database connection
         connection = create_connection()
@@ -511,11 +511,11 @@ def place_reservation():
 
             # Insert the reservation into the reservations table
             insert_query = """
-                INSERT INTO reservations (user_id, slot_id, reservation_start, reservation_end, status, created_at)
-                VALUES (%s, %s, %s, %s, %s, %s)
+                INSERT INTO reservations (user_id, slot_id, reservation_start, reservation_end, location, status, created_at)
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
             """
             created_at = datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')  # Current UTC time
-            cursor.execute(insert_query, (user_id, slot_id, reservation_start_str, reservation_end_str, status, created_at))
+            cursor.execute(insert_query, (user_id, slot_id, reservation_start_str, reservation_end_str, location, status, created_at))
             connection.commit()
 
             return jsonify({"message": "Reservation placed successfully"}), 201
@@ -529,6 +529,7 @@ def place_reservation():
         if 'connection' in locals() and connection.is_connected():
             cursor.close()
             connection.close()
+
 
 
 class ParkingSimulation:
@@ -779,7 +780,7 @@ def get_reservations():
             SET status = 'Expired'
             WHERE status = 'Reserved' AND reservation_end < %s
         """
-        logging.debug(f"Executing update query to mark expired reservations.")
+        logging.debug("Executing update query to mark expired reservations.")
         cursor.execute(update_query, (current_time,))
         connection.commit()  # Commit the update changes
 
