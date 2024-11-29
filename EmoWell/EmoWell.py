@@ -152,4 +152,4 @@ def register():
 
 if __name__ == '__main__':
     logging.debug("Starting the Flask application")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+#     app.run(host='0.0.0.0', port=5000, debug=True):
